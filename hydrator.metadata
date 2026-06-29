@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
+  "drySha": "69d0900f13a29f62b6d0a5d10f9a0eeb4f70b5fe",
+  "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
+  "date": "2026-06-29T22:30:39Z",
+  "subject": "fix: increase memory limits to 512Mi for JVM"
+}

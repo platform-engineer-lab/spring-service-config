@@ -1,0 +1,7 @@
+{
+  "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
+  "drySha": "69d0900f13a29f62b6d0a5d10f9a0eeb4f70b5fe",
+  "commands": [
+    "helm template . --name-template spring-service --namespace business-apps --values ./chart/env/prod/values.yaml --include-crds"
+  ]
+}
