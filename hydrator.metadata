@@ -1,0 +1,8 @@
+{
+  "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
+  "drySha": "2300f0ff77ad1111056eb019aa780c811068940c",
+  "author": "platform-gitops-promoter[bot] <295920631+platform-gitops-promoter[bot]@users.noreply.github.com>",
+  "date": "2026-06-29T22:13:39Z",
+  "subject": "ci: bump spring-service image to 7a493a7 (#1)",
+  "body": "Co-authored-by: CI <ci@platformlab.local>\n"
+}
