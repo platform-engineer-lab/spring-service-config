@@ -1,0 +1,13 @@
+name: spring-service
+repoUrl: https://github.com/platform-engineer-lab/spring-service-config
+chartPath: chart
+namespace: business-apps
+githubOwner: platform-engineer-lab
+githubName: spring-service-config
+environment:
+  - env: dev
+    valuesFile: env/dev/values.yaml
+    autoMerge: true
+  - env: prod
+    valuesFile: env/prod/values.yaml
+    autoMerge: false
