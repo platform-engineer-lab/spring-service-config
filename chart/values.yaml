@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/platform-engineer-lab/spring-service
-  tag: placeholder
+  tag: 7a493a7
   pullPolicy: IfNotPresent
 
 service:
