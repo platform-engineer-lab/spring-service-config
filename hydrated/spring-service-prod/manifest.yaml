@@ -84,8 +84,14 @@ spec:
         app: spring-service
     spec:
       containers:
-        - image: ghcr.io/platform-engineer-lab/spring-service:7a493a7
+        - image: ghcr.io/platform-engineer-lab/spring-service:127a2c4
           imagePullPolicy: IfNotPresent
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 10
           name: spring-service
           ports:
             - containerPort: 8080
@@ -103,3 +109,11 @@ spec:
             requests:
               cpu: 50m
               memory: 256Mi
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+            runAsNonRoot: true
+            seccompProfile:
+              type: RuntimeDefault
