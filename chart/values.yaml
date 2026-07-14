@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/platform-engineer-lab/spring-service
-  tag: 127a2c4
+  tag: 431bc59
   pullPolicy: IfNotPresent
 service:
   port: 8080
@@ -28,7 +28,6 @@ rollout:
       - pause:
           duration: 30s
       - setWeight: 100
-
 securityContext:
   runAsNonRoot: true
   allowPrivilegeEscalation: false
