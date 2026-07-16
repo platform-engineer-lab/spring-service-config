@@ -84,7 +84,7 @@ spec:
         app: spring-service
     spec:
       containers:
-        - image: ghcr.io/platform-engineer-lab/spring-service:127a2c4
+        - image: ghcr.io/platform-engineer-lab/spring-service:431bc59
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
