@@ -1,7 +1,8 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "ed4cd024d4116a70ea1b9bd95991239eaa2abee6",
-  "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-07-14T17:54:26Z",
-  "subject": "feat: enable livenessProbe and restricted securityContext"
+  "drySha": "0e5419cb16916d636ca85c8ca7e25dbf05148a85",
+  "author": "platform-gitops-promoter[bot] <295920631+platform-gitops-promoter[bot]@users.noreply.github.com>",
+  "date": "2026-07-16T00:47:01Z",
+  "subject": "ci: bump spring-service image to 431bc59 (#8)",
+  "body": "Co-authored-by: CI <ci@platformlab.local>\n"
 }
