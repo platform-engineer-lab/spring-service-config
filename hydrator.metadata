@@ -1,7 +1,8 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "69d0900f13a29f62b6d0a5d10f9a0eeb4f70b5fe",
-  "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-06-29T22:30:39Z",
-  "subject": "fix: increase memory limits to 512Mi for JVM"
+  "drySha": "0e5419cb16916d636ca85c8ca7e25dbf05148a85",
+  "author": "platform-gitops-promoter[bot] <295920631+platform-gitops-promoter[bot]@users.noreply.github.com>",
+  "date": "2026-07-16T00:47:01Z",
+  "subject": "ci: bump spring-service image to 431bc59 (#8)",
+  "body": "Co-authored-by: CI <ci@platformlab.local>\n"
 }
