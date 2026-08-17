@@ -77,6 +77,7 @@ spec:
     metadata:
       annotations:
         instrumentation.opentelemetry.io/inject-java: business-apps/platform
+        resource.opentelemetry.io/service.name: spring-service
       labels:
         app: spring-service
         app.kubernetes.io/name: spring-service

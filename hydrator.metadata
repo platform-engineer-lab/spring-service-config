@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "b041cbcad5998b53544868aa8fe4c9587f61ff0d",
+  "drySha": "2683b9b1e10ed73090e82b7625e3979f1c677b30",
   "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-08-17T20:19:19Z",
-  "subject": "chore: vendor service-app chart (stable OTel service name label)"
+  "date": "2026-08-17T20:24:30Z",
+  "subject": "fix: pin stable OTel service.name via resource annotation (override ReplicaSet-derived name)"
 }
