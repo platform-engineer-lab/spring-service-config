@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "06bf25c88ecf5d07ad419ef3420448ef75ef7299",
+  "drySha": "b041cbcad5998b53544868aa8fe4c9587f61ff0d",
   "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-08-17T20:12:10Z",
-  "subject": "fix: pin runAsUser 65532 so OTel-injected init container satisfies runAsNonRoot"
+  "date": "2026-08-17T20:19:19Z",
+  "subject": "chore: vendor service-app chart (stable OTel service name label)"
 }
