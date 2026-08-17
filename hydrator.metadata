@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "dbad054a20d772c6bf2bfcea0c80c0a595604880",
+  "drySha": "06bf25c88ecf5d07ad419ef3420448ef75ef7299",
   "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-08-17T14:52:30Z",
-  "subject": "feat: enable OpenTelemetry auto-instrumentation via podAnnotations"
+  "date": "2026-08-17T20:12:10Z",
+  "subject": "fix: pin runAsUser 65532 so OTel-injected init container satisfies runAsNonRoot"
 }
