@@ -5,6 +5,6 @@ To hydrate the manifests in this repository, run the following commands:
 ```shell
 git clone https://github.com/platform-engineer-lab/spring-service-config
 # cd into the cloned directory
-git checkout b041cbcad5998b53544868aa8fe4c9587f61ff0d
+git checkout 2683b9b1e10ed73090e82b7625e3979f1c677b30
 helm template . --name-template spring-service --namespace business-apps --values ./chart/env/dev/values.yaml --include-crds
 ```
