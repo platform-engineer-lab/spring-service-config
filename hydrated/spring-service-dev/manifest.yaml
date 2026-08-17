@@ -79,6 +79,7 @@ spec:
         instrumentation.opentelemetry.io/inject-java: business-apps/platform
       labels:
         app: spring-service
+        app.kubernetes.io/name: spring-service
     spec:
       containers:
         - image: ghcr.io/platform-engineer-lab/spring-service:431bc59
