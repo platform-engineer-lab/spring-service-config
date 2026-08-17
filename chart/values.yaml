@@ -35,3 +35,7 @@ securityContext:
     drop: ["ALL"]
   seccompProfile:
     type: RuntimeDefault
+
+# OpenTelemetry auto-instrumentation (OTel Operator injects the Java agent).
+podAnnotations:
+  instrumentation.opentelemetry.io/inject-java: "business-apps/platform"
