@@ -39,4 +39,5 @@ securityContext:
 
 # OpenTelemetry auto-instrumentation (OTel Operator injects the Java agent).
 podAnnotations:
+  resource.opentelemetry.io/service.name: "spring-service"
   instrumentation.opentelemetry.io/inject-java: "business-apps/platform"
