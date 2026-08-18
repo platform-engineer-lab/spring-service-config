@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/platform-engineer-lab/spring-service-config",
-  "drySha": "2683b9b1e10ed73090e82b7625e3979f1c677b30",
+  "drySha": "668cc4d5e107d53be20f939827f4119f95cc3e43",
   "author": "Rodrigo Vallejo <rxvallejoc@gmail.com>",
-  "date": "2026-08-17T20:24:30Z",
-  "subject": "fix: pin stable OTel service.name via resource annotation (override ReplicaSet-derived name)"
+  "date": "2026-08-18T16:23:47Z",
+  "subject": "feat: enable Mimir-backed RED success-rate canary gate (cluster-tagged)"
 }
