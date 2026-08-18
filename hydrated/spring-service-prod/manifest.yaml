@@ -62,6 +62,16 @@ spec:
       app: spring-service
   strategy:
     canary:
+      analysis:
+        args:
+          - name: service-name
+            value: spring-service
+          - name: cluster
+            value: prod
+        startingStep: 1
+        templates:
+          - clusterScope: true
+            templateName: red-success-rate
       canaryService: spring-service-canary
       stableService: spring-service-stable
       steps:
